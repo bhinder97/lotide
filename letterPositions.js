@@ -33,7 +33,7 @@ let assertArraysEqual = function(arOne, arTwo) {
   }
 };
 
-assertArraysEqual(letterPosition("lighthouse in the house"),{
+assertArraysEqual(letterPosition("lighthouse in the house"),{ 
   l: [0],
   i: [1, 11],
   g: [2],
