@@ -28,7 +28,7 @@ let without = function(source, itemsToRemove) {
   }
   return newItems;
 }
-
+/*
 assertArraysEqual(without([1, 2, 3], [1]), [2, 3]) // => [2, 3]
 assertArraysEqual(without(["1", "2", "3"], [1, 2, "3"]), ["1", "2"])
 
@@ -38,3 +38,6 @@ without(words, ["lighthouse"]); // no need to capture return value for this test
 // Make sure the original array was not altered by the without function
 assertArraysEqual(words, ["hello", "world", "lighthouse"]);
 //checking to see it this works pls
+*/
+
+module.exports = without;

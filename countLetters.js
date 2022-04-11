@@ -18,6 +18,9 @@ const countLetters = function(string) {
   return total;
 };
 
-console.log(countLetters("LIGHTHOUSE IN THE HOUSE"));
-console.log(countLetters("LIGHTHOUSE iN THE house"));
-console.log(countLetters("My name is Harsimran Bhinder"));
+// console.log(countLetters("LIGHTHOUSE IN THE HOUSE"));
+// console.log(countLetters("LIGHTHOUSE iN THE house"));
+// console.log(countLetters("My name is Harsimran Bhinder"));
+
+module.exports = countLetters;
+

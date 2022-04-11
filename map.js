@@ -35,6 +35,8 @@ console.log(results1);
 
 
 //TEST cases courtesy of matt
-assertArraysEqual(results1, ["g", "c", "t", "m", "t"]);
-assertArraysEqual(words, ["ground", "control", "to", "major", "tom"]);
-assertArraysEqual(map([], word => word[0]), []);
+// assertArraysEqual(results1, ["g", "c", "t", "m", "t"]);
+// assertArraysEqual(words, ["ground", "control", "to", "major", "tom"]);
+// assertArraysEqual(map([], word => word[0]), []);
+
+module.exports = map;
